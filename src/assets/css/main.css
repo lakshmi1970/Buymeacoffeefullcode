@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "BelyDisplay";
+    src: local("BelyDisplay"),
+    url(../fonts/BelyDisplay.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: local("ProximaNova"),
+    url(../fonts/ProximaNova.ttf) format("truetype");
+}
+@font-face {
+    font-family: "LatoRegular";
+    src: local("LatoRegular"),
+    url(../fonts/LatoRegular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "FuturaRound";
+    src: local("FuturaRound"),
+    url(../fonts/FuturaRound.ttf) format("truetype");
+}
+body {
+    font-family: "ProximaNova";
+    color: #303031;
+    background: #F9F9F9;
+}
+section {
+    padding: 80px 0;
+}
+section.banner {
+    padding: 0 0 140px;
+}
+@media(max-width:1042px){
+    section, section.banner {
+        padding: 20px 0;
+    }
+}
+p {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+}
+.primary {
+    color:#303031;
+}
+.secondary {
+    color:#71A894;
+}
+.bg-primary {
+    background-color: #303031;
+}
+.bg-secondary {
+    background-color:#71A894;
+}
+.btn-early-access {
+    width: 219px;
+    height: 64px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 18px;
+}
+
+.founder-card {
+    font-family:"LatoRegular";
+    border-color: #303031;
+}
